@@ -8,7 +8,7 @@ function plusSlides(n){
 
 function showSlides(n){
     var i;
-    var slides = document.getElementsByClassName("slider-img");
+    var slides = document.getElementsByClassName("slide");
     if(n > slides.length){
         slideIndex = 1;
     }else if(n < 1){
